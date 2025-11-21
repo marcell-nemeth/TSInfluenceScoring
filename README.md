@@ -34,6 +34,15 @@ pip install -e .
 - PyTorch >= 1.9.0
 - NumPy >= 1.20.0
 
+## Interactive Demo
+
+**📓 [Try the Jupyter Notebook Demo](demo.ipynb)** - A comprehensive interactive tutorial covering:
+- Basic setup and data preparation
+- Timestamp selection with different methods
+- Training end-to-end models
+- Counterfactual generation and analysis
+- Visualization and interpretation
+
 ## Quick Start
 
 ```python
@@ -268,6 +277,20 @@ loss_fn = CombinedLoss(
 ```
 
 ## Examples
+
+### Interactive Demo (Recommended)
+
+**📓 [Jupyter Notebook Demo](demo.ipynb)** - Interactive tutorial with visualizations:
+- Step-by-step walkthrough of all features
+- Visual analysis of timestamp selections
+- Training progress visualization
+- Counterfactual generation and analysis
+- Attribution scoring examples
+
+Launch with:
+```bash
+jupyter notebook demo.ipynb
+```
 
 ### Basic Usage
 
