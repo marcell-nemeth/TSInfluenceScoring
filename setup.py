@@ -30,14 +30,14 @@ setup(
         "torch>=1.9.0",
     ],
     extras_require={
-        "dev": [
-            "pytest>=7.0.0",
-            "pytest-cov>=3.0.0",
+        "notebook": [
             "matplotlib>=3.3.0",
             "jupyter>=1.0.0",
             "notebook>=6.4.0",
         ],
-        "notebook": [
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-cov>=3.0.0",
             "matplotlib>=3.3.0",
             "jupyter>=1.0.0",
             "notebook>=6.4.0",
